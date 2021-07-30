@@ -16,11 +16,10 @@
 
         .fo {
             padding: 45px;
-
             border-radius: 1rem;
-            background-color: rgba(1, 6, 19, 0.637);
+            background-color: rgba(7, 7, 7, 0.13);
         }
-    
+ 
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,22 +27,22 @@
 
 
 <body class="bo">
-    <div class="text-center mt-5 p-5 ">
-        <h3 class="text-white">ACM-RGTU WEBATHON</h3>
+    <div class="text-center mt-3 p-3 ">
+        <h3 class="text-white p-3">ACM-RGTU WEBATHON</h3>
     </div>
-    <div class="container px-5">
-        <form class=" fo px-5" method="post" autocomplete="off" name="form-sheet">
+    <div class="container px-5 ">
+        <form class=" fo px-5 " method="post" autocomplete="off" name="form-sheet">
             <div class="mb-3 text-white ">
+                <div class="mb-3 text-white">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" name="Email" class="form-control" required>
+                </div>
                 <label for="Name" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control">
+                <input type="text" name="name" class="form-control" required>
             </div>
             <div class="mb-3 text-white">
                 <label for="phone" class="form-label">Phone</label>
                 <input type="number" name="phone" class="form-control" required>
-            </div>
-            <div class="mb-3 text-white">
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" name="Email" class="form-control" required>
             </div>
             <button button type="submit" name="submit" value="Send messsage"
                 class="btn btn-primary mt-2 ">Submit</button>
