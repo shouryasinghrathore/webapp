@@ -41,8 +41,12 @@
                 <label for="phone" class="form-label">Phone</label>
                 <input type="number" name="phone" class="form-control" required>
             </div>
+            <div class="mb-3 text-white">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" name="Email" class="form-control" required>
+            </div>
             <button button type="submit" name="submit" value="Send messsage"
-                class="btn btn-primary mt-3 ">Submit</button>
+                class="btn btn-primary mt-2 ">Submit</button>
         </form>
     </div>
 
@@ -50,7 +54,7 @@
 
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwbPxsO2fwYkzrxkLJYK5NM1dXihpajxKnbzPJA-SCKVViT3tGIVtyjS1PPGLwF82k9rw/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwDSPBGaheCrTdFNcD0xRqrtQUgbWeyRnLSIdrLpHFr6wKnGwio-r-w3Z0MjK3js-KwOA/exec'
         const form = document.forms['form-sheet']
         form.addEventListener('submit', e => {
           e.preventDefault()
