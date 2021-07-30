@@ -54,8 +54,10 @@
         const form = document.forms['form-sheet']
         form.addEventListener('submit', e => {
           e.preventDefault()
+          alert("THANKU\n FOR SUBMITING");
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => console.log('Success!', response))
+            
             .catch(error => console.error('Error!', error.message))
         })
       </script>
